@@ -25,7 +25,7 @@ def docMother(sN):
 	path =  sN[0] + "/" + namedoc +".txt" 
 	f = open( path ,"w")
 
-	f.write("Esto es una prueba" + path + "Y esta es la de ahora: "+ sN[1] + sN[2])
+	f.write("This is a test " + path + "This is the time: "+ sN[1] + sN[2])
 
 
 
